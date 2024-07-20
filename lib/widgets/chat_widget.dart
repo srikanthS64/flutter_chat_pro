@@ -72,11 +72,11 @@ class ChatWidget extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text(dateTime),
-            UnreadMessageCounter(
-              uid: uid,
-              contactUID: contactUID,
-              isGroup: isGroup,
-            )
+            // UnreadMessageCounter(
+            //   uid: uid,
+            //   contactUID: contactUID,
+            //   isGroup: isGroup,
+            // )
           ],
         ),
       ),

@@ -59,12 +59,12 @@ class MyApp extends StatelessWidget {
       initial: savedThemeMode ?? AdaptiveThemeMode.light,
       builder: (theme, darkTheme) => MaterialApp(
         debugShowCheckedModeBanner: false,
-        title: 'Flutter Chat Pro',
+        title: 'Sync Space',
         theme: theme,
         darkTheme: darkTheme,
-        initialRoute: Constants.landingScreen,
+        initialRoute: Constants.loginScreen,
         routes: {
-          Constants.landingScreen: (context) => const LandingScreen(),
+          // Constants.landingScreen: (context) => const LandingScreen(),
           Constants.loginScreen: (context) => const LoginScreen(),
           Constants.otpScreen: (context) => const OTPScreen(),
           Constants.userInformationScreen: (context) =>

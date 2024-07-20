@@ -10,6 +10,7 @@ import 'package:flutter_chat_pro/models/user_model.dart';
 import 'package:flutter_chat_pro/utilities/global_methods.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
+
 class AuthenticationProvider extends ChangeNotifier {
   bool _isLoading = false;
   bool _isSuccessful = false;

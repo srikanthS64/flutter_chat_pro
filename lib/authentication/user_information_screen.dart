@@ -209,7 +209,7 @@ class _UserInformationScreenState extends State<UserInformationScreen> {
       phoneNumber: authProvider.phoneNumber!,
       image: '',
       token: '',
-      aboutMe: 'Hey there, I\'m using Flutter Chat Pro',
+      aboutMe: 'Hey there, I\'m using Sync Space',
       lastSeen: '',
       createdAt: '',
       isOnline: true,

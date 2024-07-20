@@ -17,15 +17,15 @@ class _LoginScreenState extends State<LoginScreen> {
   final TextEditingController _phoneNumberController = TextEditingController();
 
   Country selectedCountry = Country(
-    phoneCode: '26',
-    countryCode: 'ZM',
+    phoneCode: '91',
+    countryCode: 'IN',
     e164Sc: 0,
     geographic: true,
     level: 1,
-    name: 'Zambia',
-    example: 'Zambia',
-    displayName: 'Zambia',
-    displayNameNoCountryCode: 'ZM',
+    name: 'India',
+    example: 'India',
+    displayName: 'India',
+    displayNameNoCountryCode: 'IN',
     e164Key: '',
   );
 
@@ -54,7 +54,7 @@ class _LoginScreenState extends State<LoginScreen> {
               child: Lottie.asset(AssetsMenager.chatBubble),
             ),
             Text(
-              'Flutter Chat Pro',
+              'Sync Space',
               style: GoogleFonts.openSans(
                 fontSize: 28,
                 fontWeight: FontWeight.w500,
